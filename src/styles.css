@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  padding: 20px;
+}
+
+.envelope {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  height: 80vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background: #fff8da;
+  flex-wrap: wrap;
+}
+
+.from {
+  align-self: flex-start;
+  font-weight: bold;
+}
+.to {
+  align-self: center;
+  font-weight: bold;
+}
+
+.stamp {
+  display: flex;
+}
+
+.stamp img {
+  align-self: flex-start;
+  width: 80px;
+  height: 90px;
+}
+
+.card-container {
+
+  display: flex;
+  align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.card-body {
+
+  
+  background-image: linear-gradient(
+    to right top,
+    #0000ff,
+    #0027ff,
+    #003aff,
+    #0048ff,
+    #0055ff,
+    #0056ff,
+    #0056ff,
+    #0057ff,
+    #004dff,
+    #0041ff,
+    #0033ff,
+    #0021ff
+  );
+
+  color: white;
+
+  height: 180px;
+  width: 300px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.bank-name
+{
+  align-self: flex-end;
+  margin-right: 5px;
+  margin-top: 8px;
+}
+.card-info
+{
+line-height: 1px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.bank-name
+{
+  font-weight: bold
+}
+
+.card-number
+{
+  align-self: center;
+  font-size: 22px;
+letter-spacing: 3px;
+}
+
+.expiry
+{
+  align-self: center;
+}
+.customer-name
+{
+ 
+  align-self: flex-start;
+}
